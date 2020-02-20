@@ -1,3 +1,5 @@
+[![Python](https://img.shields.io/badge/Python-3.7-orange)](https://www.python.org/downloads/release/python-2716/)
+
 # Python_Course 
 
 Σε αυτό το Course θα δούμε τα βασίκα της Python και την λογική πίσω απο την γλώσσα.
@@ -22,7 +24,7 @@
 - [Εφαρμογές με python](https://www.python.org/about/apps/)
 - [Συνέντευξη από τον δημιουργό της Python](https://www.artima.com/intv/python.html)
 
-# Προτεινόμενο Λογισμικό 
+# Προτεινόμενο IDE 
 
 - [Jet Brains PyCharm](https://www.jetbrains.com/pycharm/)
 - [VS Code editor με plug-in](https://code.visualstudio.com/docs/languages/python)
