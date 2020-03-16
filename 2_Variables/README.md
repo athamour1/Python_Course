@@ -54,3 +54,19 @@ Output:
 >>> hello
 >>> hello
 ```
+
+# Λογικες μεταβλητές
+
+Τις λογικές μεταβλητές τις ορίζουμε σαν True η False
+
+```python
+myboolian = True
+print(myboolian)
+myboolian = False
+print(myboolian)
+```
+Output:
+```
+>>> hello
+>>> hello
+```
