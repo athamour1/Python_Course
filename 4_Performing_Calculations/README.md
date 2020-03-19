@@ -40,6 +40,10 @@
     <p>
 
     ```python
+    sum = 0
+    for x in range(7):
+        sum = sum + int(input('ημέρα ' + str(x+1) + 'η '))
+    print('το sum ειναι: ' + str(sum) + ' euro')
     ```
 
     </p>
@@ -76,6 +80,12 @@
     <p>
 
     ```python
+    sum = 0
+    for x in range(7):
+        sum = sum + int(input('ημέρα ' + str(x+1) + 'η '))
+    mo = sum/7
+    print('το sum ειναι: ' + str(sum) + ' euro')
+    print('Ο Μεσος Όρος ανα μέρα ειναι: ' + str(mo) + ' euro')
     ```
 
     </p>
@@ -106,3 +116,21 @@
     $ Το τετράγωνο του αριθμού x ειναι:
     $ Θελετε να συνεχήσετε? Y/N (yes or no): 
     ```
+    <details><summary>Απάντηση</summary>
+    <p>
+
+    ```python
+    log=True
+    while log:
+        x = int(input('Δωσε αριθμό'))
+        z = x**2
+        print('Το τετράγωνο του αριθμού ' + str(x) + ' ειναι το : ' + str(z))
+        y = input('Θελετε να συνεχiσετε? Y/N (yes or no):')
+        while not(y='Y' or y='N'): # για να ημαστε σιγουροι οτι δεν εβαλε κατι αλλο
+            y = input('Θελετε να συνεχήσετε? Y/N (yes or no):')
+        if y = 'N':
+            log=Fasle       
+    ```
+
+    </p>
+    </details>
